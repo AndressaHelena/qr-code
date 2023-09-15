@@ -2,78 +2,62 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
-body{
+.geral{
     background-color: #d5e1ef;
     font-family: 'Outfit';
     font-size: 15px;
-    width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     
 }
-.conteiner{
+
+.card{
     background-color: #ffff;
     width: 300px;
     height: 470px;
-    margin: 70px auto;
     border-radius: 15px;
+    text-align: center; 
+    padding-top: 15px;
 }
 
-img{
+.card .image{
     width: 270px;
     height: 270px;
-    margin-left: 15px;
-    margin-top: 15px;
     border-radius: 8px;
 }
-a{
-    color: black;
-}
-.text{
-    text-align: center;
-    width: 88%;
-    margin: auto;
-    
-}
-.title{
+
+.card .title{
     font-size: 22px;
     font-weight: 700;
-    margin-top: 15px;
-}
-.subtitle {
+    padding-top: 18px;
     
+}
+.card .subtitle { 
     color: hsl(220, 15%, 55%);
     margin-top: 15px;
     font-size: 15px;
-    font-weight: 400;    
-}
-
-.footer{
-    bottom: 10px;
-    position: fixed;
-    width: 95%;
-    text-align: center;
+    font-weight: 400;   
+   
 }
 
 
-@media(max-width: 375px){
-    .conteiner{
-        background-color: #ffff;
+@media screen and (max-width: 375px){
+    .card{
         width: 70%;
         height: 450px;
         margin: 50px auto;
+        padding: 5px;
     }
-    img{
+    .card .image{
         width: 90%;
         height: 230px;
+        padding: 10px 0 0 0;
         
     }
-    .footer{
-       font-size: 13px;
-       margin: 12px 0;
-       background-color: aqua;
-       
-
-    }
+    
 }
