@@ -23,6 +23,7 @@
     border-radius: 15px;
     text-align: center; 
     padding-top: 15px;
+    
 }
 
 .card .image{
@@ -35,12 +36,13 @@
     font-size: 22px;
     font-weight: 700;
     padding-top: 18px;
+    margin: 0px 15px;
     
 }
 .card .subtitle { 
     color: hsl(220, 15%, 55%);
-    margin-top: 15px;
-    font-size: 15px;
+    margin: 15px 10px;
+    font-size: 16px;
     font-weight: 400;   
    
 }
