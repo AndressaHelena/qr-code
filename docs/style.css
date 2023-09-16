@@ -23,7 +23,7 @@
     border-radius: 15px;
     text-align: center; 
     padding-top: 15px;
-    
+    box-shadow: 0 30px 70px -40pv #1F3251;
 }
 
 .card .image{
