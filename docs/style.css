@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-.geral{
+.main{
     background-color: #d5e1ef;
     font-family: 'Outfit';
     font-size: 15px;
@@ -23,7 +23,7 @@
     border-radius: 15px;
     text-align: center; 
     padding-top: 15px;
-    box-shadow: 0 30px 70px -40pv #1F3251;
+    box-shadow: 0 30px 70px -40px #1F3251;
 }
 
 .card .image{
@@ -33,6 +33,7 @@
 }
 
 .card .title{
+    color: #1F3251;
     font-size: 22px;
     font-weight: 700;
     padding-top: 18px;
